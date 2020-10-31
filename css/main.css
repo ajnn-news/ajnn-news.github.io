@@ -1,0 +1,195 @@
+
+@font-face {
+    font-family: 'DecimaMonoPro';
+    src: URL("../fonts/DecimaMonoPro-Bold.ttf") format('truetype');
+}
+
+body {
+
+    background-color: #36393f;
+}
+
+#main-container {
+
+    background-color: #121212;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    width: 720px;
+}
+
+foreignObject {
+    display: block;
+}
+
+svg .state_info {
+    font-family: 'DecimaMonoPro', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+}
+
+#main-container {
+    margin-left: 50px;
+}
+
+#winbar-container {
+    height: 32px;
+    width: 681px;
+    background-color: #1e1e1e;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+#winnerbar-section {
+
+    width: 681px;
+}
+
+
+#blue-bar {
+    float: left;
+    background-color: #5f6faf;
+    height: 32px;
+    width: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#red-bar {
+    float: right;
+    background-color: #fa5f59;
+    height: 32px;
+    width: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#blue-side-label {
+    float: left;
+}
+
+#red-side-label {
+    float: right;
+}
+
+#blue-candidate-label {
+    font-family: "DecimaMonoPro";
+    font-size: 20px;
+    color: #5f6faf;
+    margin-left: 90px;
+}
+
+#red-candidate-label {
+    font-family: "DecimaMonoPro";
+    font-size: 20px;
+    color: #fa5f59;
+    margin-right: 90px;
+}
+
+#blue-tally {
+    font-family: "DecimaMonoPro";
+    color: #5f6faf;
+    float: right;
+    margin-left: 20px;
+ }
+
+#red-tally {
+    font-family: "DecimaMonoPro";
+    color: #fa5f59;
+    float: left;
+    margin-right: 20px;
+}
+
+#blue-image {
+    margin-left: 10px;
+    float: left;
+    margin-top: -20px;
+}
+
+#red-image {
+    margin-right: 10px;
+    float: right;
+    margin-top: -20px;
+}
+
+#ajnn-label {
+
+    font-family: "DecimaMonoPro";
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.limetext {
+    color: #8cc542;
+}
+
+.magentatext {
+    color: #CF2D6C;
+}
+
+#small-panel-div {
+    position: absolute;
+    left: 740px;
+    top: 500px;
+    font-family: 'DecimaMonoPro', sans-serif;
+    font-size: 8.158536585365853pt;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+.state-tile {
+    float: left;
+    background-color: #1e1e1e;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.tile-label {
+    margin-left: 25px;
+    padding: 4px;
+    text-align: left;
+}
+
+#small-panel-row {
+    margin-top: 4px;
+}
+
+.smallcircle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 5.5px;
+}
+
+#me-1 { top: 316px; left: 778px; }
+#me-2 { top: 328px; left: 767px; }
+
+#ne-1 { top: 404px; left: 426px; }
+#ne-2 { top: 420px; left: 430px; }
+#ne-3 { top: 400px; left: 358px; }
+
+#centerline {
+    position: absolute;
+    width: 4px;
+    height: 40px;
+    background-color: #f0c40f;
+    border-radius: 2px;
+    
+}
+
+#centertext {
+    font-family: 'DecimaMonoPro', sans-serif;
+    position: absolute;
+    color: #f0c40f;
+    text-align: center;
+}
