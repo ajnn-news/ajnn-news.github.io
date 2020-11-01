@@ -568,7 +568,7 @@ function generateLinkButton() {
 
     // GENERATE LINK
 
-    var link = "file:///Users/ajaygandecha/Desktop/AJNNElectoralMapSite/index.html?mode=viewer&";
+    var link = "https://ajnn-news.github.io/?mode=viewer&";
 
     // statecolor
     for(var key in svg_states) {
@@ -589,14 +589,13 @@ function generateLinkButton() {
         link += ("p=" + state + "&");
     }
 
-    link += ("s=" + nextclosing);
+    link += ("s=" + nextclosing + "&");
 
-    link += ("bi=" + bidenchance);
+    link += ("bi=" + bidenchance + "&");
 
     link += ("tr=" + trumpchance);
 
     console.log(link);
 
-    //mode=admin&al=1&nc=2&dc_tile=1&me-1=2&c=al&c=pa&c=me&s=800&p=ca&p=fl&p=dc&p=ok&p=al&p=ia&bi=56&tr=44
-
+    document.getElementById("exportlink").innerHTML = link;
 }
