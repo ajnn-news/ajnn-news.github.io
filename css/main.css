@@ -319,3 +319,12 @@ svg .state_info {
     color: white;
 
 }
+
+#exportlink {
+    font-family: "DecimaMonoPro";
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+
+}
