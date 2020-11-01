@@ -391,6 +391,7 @@ window.addEventListener('load', function () {
         document.getElementById("ne-2").onclick = change_color
         document.getElementById("ne-3").onclick = change_color
 
+        document.getElementById("admin-panel").removeAttribute("hidden");
     }
 
     readParams();
