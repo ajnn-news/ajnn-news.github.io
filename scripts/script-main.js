@@ -171,6 +171,7 @@ function readParams() {
     if(closing=="1000") { time = "10:00 PM"; statesclosing = ["ia", "mt", "nv", "ut"]; }
     if(closing=="1100") { time = "11:00 PM"; statesclosing = ["ca", "or", "wa", "id", "hi"]; }
     if(closing=="100") { time = "1:00 AM"; statesclosing = ["ak"]; }
+    if(closing=="FIN") { time = "Finished"; statesclosing = []; }
 
     document.getElementById("closingsoontime").innerHTML = time;
 
