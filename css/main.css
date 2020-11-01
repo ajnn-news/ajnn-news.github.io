@@ -5,12 +5,11 @@
 }
 
 body {
-
     background-color: #36393f;
 }
 
 #main-container {
-
+        
     background-color: #121212;
     border-radius: 40px;
     margin-top: 50px;
@@ -18,6 +17,9 @@ body {
     padding-left: 40px;
     padding-bottom: 70px;
     width: 720px;
+    /*margin-left: 50px;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 foreignObject {
@@ -31,10 +33,6 @@ svg .state_info {
     font-weight: normal;
     width: 100%;
     height: 100%;
-}
-
-#main-container {
-    margin-left: 50px;
 }
 
 #winbar-container {
@@ -192,4 +190,132 @@ svg .state_info {
     position: absolute;
     color: #f0c40f;
     text-align: center;
+}
+
+.bottom-row {
+    margin-top: 10px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomrow-container {
+    
+    background-color: #121212;
+    border-radius: 40px;
+    width: 375px;
+    padding-bottom: 20px;
+}
+
+#statesclosed-container {
+    float: left;
+    margin-left: 0px;
+}
+#closingsoon-container {
+    float: right;
+    margin-right: 0px;
+}
+
+.bottomrow-header {
+    font-family: "DecimaMonoPro";
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.bottomrow-ptext {
+    font-family: "DecimaMonoPro";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bottomrow-bignumber {
+    font-family: "DecimaMonoPro";
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tile-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    padding-bottom: 76px;
+
+}
+
+.small-tile {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 34px;
+    height: 34px;
+    padding: 6px;
+    font-family: "DecimaMonoPro";
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+}
+
+#row2 {
+    margin-top: 10px;
+}
+
+#bidenchance {
+    color: #5f6faf;
+}
+
+#trumpchance {
+    color: #fa5f59;  
+}
+
+#projection-container {
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    height: 180px;
+}
+#chance-container {
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 180px;
+}
+
+#admin-panel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#admin-table {
+    font-family: "DecimaMonoPro";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    column-width: 100px;
+    width: 400px;
+    padding: 50px;
+}
+
+#nextclosing {
+    padding-left: 50px;
+}
+
+.inputdesc {
+    font-family: "DecimaMonoPro";
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+
 }
