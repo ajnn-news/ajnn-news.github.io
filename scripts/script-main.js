@@ -3,7 +3,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
 var states = ["al", "ak", "az", "ar", "ca", "co", "ct", "de", "fl", "ga", "hi", "id", "il", "in", "ia", "ks", "ky", "la", "me", "md", "ma", "mi", "mn", "ms", "mo", "mt", "ne", "nv", "nh", "nj", "nm", "ny", "nc", "nd", "oh", "ok", "or", "pa", "ri", "sc", "sd", "tn", "tx", "ut", "vt", "va", "wa", "wv", "wi", "wy"]
-var key_states = ["pa", "nc", "fl", "az", "oh", "ga"];
+var key_states = ["pa", "nc", "fl", "az", "mi", "wi", "ga"];
 
 var svg_states = {};
 
@@ -167,7 +167,7 @@ function readParams() {
     if(closing=="730") { time = "7:30 PM"; statesclosing = ["nc", "wv", "oh"]; }
     if(closing=="800") { time = "8:00 PM"; statesclosing = ["fl", "al", "ms", "tn", "ok", "mo", "il", "md", "de", "pa", "nj", "ct", "ma", "nh", "me", "ri"]; }
     if(closing=="830") { time = "8:30 PM"; statesclosing = ["ar"]; }
-    if(closing=="900") { time = "9:00 PM"; statesclosing = ["ny", "mi", "wi", "mn", "nd", "sd", "ne", "wy", "co", "nm", "az", "tx", "ks", "la", "ny"]; }
+    if(closing=="900") { time = "9:00 PM"; statesclosing = ["ny", "mi", "wi", "mn", "nd", "sd", "ne", "wy", "co", "nm", "az", "tx", "ks", "la"]; }
     if(closing=="1000") { time = "10:00 PM"; statesclosing = ["ia", "mt", "nv", "ut"]; }
     if(closing=="1100") { time = "11:00 PM"; statesclosing = ["ca", "or", "wa", "id", "hi"]; }
     if(closing=="100") { time = "1:00 AM"; statesclosing = ["ak"]; }
